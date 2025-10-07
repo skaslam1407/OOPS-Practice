@@ -9,7 +9,7 @@ trait DbConnection {
 
 
 class User {
-    use DbConnection;
+    use DbConnection; 
 
     public function getUser($id) {
         $this->connect();
