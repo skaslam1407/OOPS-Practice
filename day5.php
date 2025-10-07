@@ -23,7 +23,7 @@ $obj = new C();
 $obj->test();   
 
 echo "<br>";
-$obj->demo();
+$obj->demo(); 
 
 
 
