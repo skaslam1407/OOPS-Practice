@@ -15,7 +15,7 @@ class B extends A {
     public static function who() {
         echo __CLASS__;
     }
-}
+} 
 
 B::test(); // Outputs "B" because of late static binding
 
