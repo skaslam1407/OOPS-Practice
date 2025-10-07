@@ -1,24 +1,22 @@
 <?php
 
-// Late Static Binding
+class base{
 
-class A {
-    public static function who() {
-        echo __CLASS__;
+    protected static $name = 'Sekh';
+    
+    public static function getName(){
+        return static::$name;
     }
-    public static function test() {
-        static::who(); // Here is the late static binding
-    }
+
 }
 
-class B extends A {
-    public static function who() {
-        echo __CLASS__;
-    }
-} 
+class child extends base{
+      protected static $name = 'Aslam';
 
-B::test(); // Outputs "B" because of late static binding
+}
 
+$d = new child();
+echo $d->getName();  // Outputs: Sekh
 
 
 ?>
