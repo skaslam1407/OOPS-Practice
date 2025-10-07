@@ -18,7 +18,7 @@ class User {
     }
 }
 
-class Product {
+class Product { 
     use DbConnection;
 
     public function getProduct($id) {
