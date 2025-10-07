@@ -25,6 +25,6 @@ class B extends A{
 //echo A::$name;
 $a = new B();
 print_r($a->test()); 
-
+ 
 
 ?>
