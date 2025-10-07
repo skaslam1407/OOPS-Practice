@@ -28,6 +28,6 @@ class B extends A{
 }   
 
 $a = new B('Sekh');
-print_r($a->display());
+print_r($a->display()); 
 
 ?>
