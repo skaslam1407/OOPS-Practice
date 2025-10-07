@@ -25,7 +25,7 @@ echo $p->name;
 echo "<br>";
 $p->display('SRK');
 echo "<br>";
-echo $p->name;
+echo $p->name; 
 
 
 ?>
